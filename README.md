@@ -7,7 +7,7 @@ Hi guys good luck with ur deving lol
 Also uhh when you start the project if you see this warning:
 
 <p align="center">
-  <img src="assets/warning.png" alt="Step 1"/>
+  <img src="Assets/warning.png" alt="Step 1"/>
 </p>
 
 *PRESS NO OR YOU WILL BE COOKED*
