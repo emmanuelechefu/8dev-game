@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System;
 
 //HP System for Enemies/Player, keep isPlayer unticked if you're messing with a non player prefab in inspector
 
@@ -11,6 +13,8 @@ public class Health : MonoBehaviour
     [Header("Player-only")]
     public float invulnerabilityTime = 1.5f;
     public float knockbackForce = 5f;
+
+    public Slider slider;
 
     private int current;
     private bool isInvulnerable;
@@ -24,6 +28,9 @@ public class Health : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         if (sr != null)
             originalColor = sr.color;
+
+        slider.maxValue = maxHealth;
+        slider.value = current;
     }
 
     // Old calls (bullets, melee) still work:
@@ -35,10 +42,12 @@ public class Health : MonoBehaviour
     // New overload: pass direction for knockback if desired
     public void TakeDamage(int amount, Vector2 knockbackDirection)
     {
+        Console.WriteLine("Ow");
         if (isPlayer && isInvulnerable)
             return;
 
         current -= amount;
+        slider.value = current;
 
         if (isPlayer)
         {

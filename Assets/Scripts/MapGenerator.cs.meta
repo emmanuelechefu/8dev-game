@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: 88fd0be00615cb94f84edb5c5977b8c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mapFile: {fileID: 4900000, guid: 23c183ebe1cb7384da6f38b88f6aadc6, type: 3}
+  - airPrefab: {instanceID: 0}
+  - wallPrefab: {instanceID: 0}
+  - doorPrefab: {instanceID: 0}
+  - keyPrefab: {instanceID: 0}
+  - exitDoorPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void OnPlayButton()
+    public void onPlayButton()
     {
         SceneManager.LoadScene("SafeArea");
     }
 
-    public void OnQuitButton()
+    public void onQuitButton()
     {
         Application.Quit();
     }
