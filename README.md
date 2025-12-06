@@ -26,7 +26,8 @@ Didn't wanna delete any of Eman's part so I'm just adding mine below
 To summarise, this game is made INCREDIBLY stupid, not utilising one of unity's best features. My main pet peeve, the maps.
 They are generated from txt files and assets are loaded over them (by me). Even worse cuz the levelManager code needs
 9 files to load in fully and form a 3x3 grid (rommMaps 0-8). So yeah have fun with adding more, ideally just design ur 
-own (like I did with bossRoom.txt) and go from there.
+own (like I did with bossRoom.txt) and go from there. Or, redesign everything and actually make maps in the scene creator
+(long as hell but if u do ur goated).
 
 The boss is incomplete cuz lowkey someone else got that fr, my idea was a bullet hell boss but this is where I ended
 so there's literally nothing there so do what u want. Also no doors lead to there yet, u got that tho.
