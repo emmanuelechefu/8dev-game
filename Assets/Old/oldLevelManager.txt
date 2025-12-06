@@ -1,0 +1,83 @@
+using UnityEngine;
+
+public class LevelManager : MonoBehaviour
+{
+    public TextAsset[] roomMaps; // 9 maps, each 15x15
+    public MapGenerator mapGenerator; // same script but we’ll feed it a combined map
+    public GameObject keyPrefab;
+
+    private const int roomSize = 15;
+
+    private void Start()
+    {
+        GenerateLevel();
+    }
+
+    void GenerateLevel()
+    {
+        if (roomMaps.Length != 9)
+        {
+            Debug.LogError("Need exactly 9 room maps!");
+            return;
+        }
+
+        // combine into one 45x45 text
+        int gridSize = roomSize * 3;
+        char[,] grid = new char[gridSize, gridSize];
+
+        for (int i = 0; i < 9; i++)
+        {
+            TextAsset room = roomMaps[i];
+            string[] rows = room.text.Replace("\r", "").Split('\n');
+            int roomX = i % 3;
+            int roomY = i / 3;
+
+            for (int y = 0; y < roomSize; y++)
+            {
+                string row = rows[roomSize - 1 - y];
+                for (int x = 0; x < roomSize; x++)
+                {
+                    int gx = roomX * roomSize + x;
+                    int gy = roomY * roomSize + y;
+                    grid[gx, gy] = row[x];
+                }
+            }
+        }
+
+        // convert char[,] to TextAsset-like string for MapGenerator
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        for (int y = gridSize - 1; y >= 0; y--)
+        {
+            for (int x = 0; x < gridSize; x++)
+                sb.Append(grid[x, y]);
+            if (y > 0) sb.Append('\n');
+        }
+
+        // create temporary TextAsset
+        TextAsset combined = new TextAsset(sb.ToString());
+        mapGenerator.mapFile = combined;
+        mapGenerator.Generate();
+
+        SpawnKeyRandomly(gridSize);
+    }
+
+    void SpawnKeyRandomly(int gridSize)
+    {
+        // Very rough: place key at a random "air" tile position
+        bool placed = false;
+
+        while (!placed)
+        {
+            int x = Random.Range(1, gridSize - 1);
+            int y = Random.Range(1, gridSize - 1);
+
+            Vector3 pos = new Vector3(x * mapGenerator.tileSize,
+                                      y * mapGenerator.tileSize,
+                                      0);
+
+            // you might raycast to ensure it's not a wall etc.; for now just instantiate.
+            Instantiate(keyPrefab, pos, Quaternion.identity);
+            placed = true;
+        }
+    }
+}
