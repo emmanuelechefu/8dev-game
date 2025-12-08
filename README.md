@@ -38,14 +38,6 @@ Also, add hentai, you know you want to.
 
 Oh yeah, the game is runnable from the main menu, I made it. Feel free to make it *worse*.
 
-Okay sooooo, so basically to play the game **REDACTED**. If you accidentally enter the boss room before doing
-this icl youre just cooked. Also sometimes key spawns in walls and stuff idk what Jaleel did there. 
-Anyways ummm have fun with the boss battles i created, feel free to add more. **REDACTED** so if someone wants to do that feel free,
-add as much **REDACTED** as possible. Also hit detection is kinda ass, **REDACTED** doesnt work yet althoughI did start to implement it, 
-audio cuts in at random times sometimes and uhhhhh idk there are some other things i messed up but you guys got !!
-
-This was my first time coding in C sharp so everyone hop off my dick btw anyways enjoy.
-
 
 ## Ola
 
