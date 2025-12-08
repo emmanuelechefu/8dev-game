@@ -21,6 +21,9 @@ public class Health : MonoBehaviour
     private SpriteRenderer sr;
     private Color originalColor;
 
+    public int CurrentHealth => current;
+    public int MaxHealth => maxHealth;
+
     private void Awake()
     {
         current = maxHealth;
@@ -29,8 +32,11 @@ public class Health : MonoBehaviour
         if (sr != null)
             originalColor = sr.color;
 
-        slider.maxValue = maxHealth;
-        slider.value = current;
+        if (slider != null)
+        {
+            slider.maxValue = maxHealth;
+            slider.value = current;
+        }
     }
 
     // Old calls (bullets, melee) still work:
@@ -47,7 +53,10 @@ public class Health : MonoBehaviour
             return;
 
         current -= amount;
-        slider.value = current;
+        if (slider != null)
+        {
+            slider.value = current;
+        }
 
         if (isPlayer)
         {

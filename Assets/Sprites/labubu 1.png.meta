@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: a496aec54b9be624db4aaa94c068ee40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1531297585607730714
+    second: labubu 1_0
+  - first:
+      213: 5172345298184776290
+    second: labubu 1_1
+  - first:
+      213: 6510882921542159536
+    second: labubu 1_2
+  - first:
+      213: 6381304158667265764
+    second: labubu 1_3
+  - first:
+      213: -5754364794193323421
+    second: labubu 1_4
+  - first:
+      213: -4080458820746901878
+    second: labubu 1_5
+  - first:
+      213: 1496372547952596114
+    second: labubu 1_6
+  - first:
+      213: -7803760510803955184
+    second: labubu 1_7
+  - first:
+      213: -1744391774188133096
+    second: labubu 1_8
+  - first:
+      213: 2306186343941834684
+    second: labubu 1_9
+  - first:
+      213: 2204574494772992131
+    second: labubu 1_10
+  - first:
+      213: -3664213665261574589
+    second: labubu 1_11
+  - first:
+      213: -661402568154365163
+    second: labubu 1_12
+  - first:
+      213: 1412822326815403436
+    second: labubu 1_13
+  - first:
+      213: -461248111603260467
+    second: labubu 1_14
+  - first:
+      213: -3033478669067567732
+    second: labubu 1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: labubu 1_0
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 286
+        width: 463
+        height: 667
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9107485fcbfbae0800000000000000
+      internalID: -1531297585607730714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_1
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 184
+        width: 85
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a27f9f4acd7c740800000000000000
+      internalID: 5172345298184776290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 165
+        width: 95
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc8da0658d4b5a50800000000000000
+      internalID: 6510882921542159536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 186
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6d51d9252fe8850800000000000000
+      internalID: 6381304158667265764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 186
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ad71625b36420b0800000000000000
+      internalID: -5754364794193323421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_5
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 184
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8685cc525c4f57c0800000000000000
+      internalID: -4080458820746901878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_6
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 186
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2945c5c77ee24c410800000000000000
+      internalID: 1496372547952596114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 184
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0123f49592973b390800000000000000
+      internalID: -7803760510803955184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_8
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 184
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815276e6cecaac7e0800000000000000
+      internalID: -1744391774188133096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_9
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 186
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb78288d248310020800000000000000
+      internalID: 2306186343941834684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_10
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 186
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38894d992d8389e10800000000000000
+      internalID: 2204574494772992131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 82
+        width: 29
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346a3f4d519162dc0800000000000000
+      internalID: -3664213665261574589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 83
+        width: 76
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513c0a75ed932d6f0800000000000000
+      internalID: -661402568154365163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_13
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 83
+        width: 78
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cada298bb6a5b9310800000000000000
+      internalID: 1412822326815403436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_14
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 83
+        width: 30
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3619a49415999f0800000000000000
+      internalID: -461248111603260467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: labubu 1_15
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 82
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8db088f83be6e5d0800000000000000
+      internalID: -3033478669067567732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      labubu 1_0: -1531297585607730714
+      labubu 1_1: 5172345298184776290
+      labubu 1_10: 2204574494772992131
+      labubu 1_11: -3664213665261574589
+      labubu 1_12: -661402568154365163
+      labubu 1_13: 1412822326815403436
+      labubu 1_14: -461248111603260467
+      labubu 1_15: -3033478669067567732
+      labubu 1_2: 6510882921542159536
+      labubu 1_3: 6381304158667265764
+      labubu 1_4: -5754364794193323421
+      labubu 1_5: -4080458820746901878
+      labubu 1_6: 1496372547952596114
+      labubu 1_7: -7803760510803955184
+      labubu 1_8: -1744391774188133096
+      labubu 1_9: 2306186343941834684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

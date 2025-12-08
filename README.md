@@ -42,3 +42,12 @@ Feel free to change whatever you want, even assets cuz i lowkey just grabbed gen
 Also, add hentai, you know you want to.
 
 Oh yeah, the game is runnable from the main menu, I made it. Feel free to make it *worse*.
+
+## Ola
+
+Okay sooooo, so basically to play the game you enter through one of the doors and then you have to look for a key and then you enter back into the spawn room in which you can craft a gun. If you accidentally
+enter the boss room before doing this icl youre just cooked. Also sometimes key spawns in walls and stuff idk what Jaleel did there. Anyways ummm have fun with the boss battles i created, feel free to add more. Originally
+I was gonna have Diddy as the third boss but i didnt have time so if someone wants to do that feel free, add as much baby oil bullets as possible. Also hit detection is kinda ass, healthbar for enemy doesnt work yet although
+I did start to implement it, audio cuts in at random times sometimes and uhhhhh idk there are some other things i messed up but you guys got !!
+
+This was my first time coding in C sharp so everyone hop off my dick btw anyways enjoy.

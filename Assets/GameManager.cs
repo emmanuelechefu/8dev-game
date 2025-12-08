@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour
     public void LoadSafeArea() => SceneManager.LoadScene("SafeArea");
     public void LoadLevel() => SceneManager.LoadScene("Level");
     public void LoadBoss() => SceneManager.LoadScene("Boss");
+    public void LoadBulletHellTest() => SceneManager.LoadScene("BulletHellTest");
 }
 
 public enum ResourceType { Gold, Ruby, Diamond }

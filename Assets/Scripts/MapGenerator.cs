@@ -53,7 +53,12 @@ public class MapGenerator : MonoBehaviour
                 int val = ch - '0';
                 TileType type = (TileType)val;
 
-                Vector3 pos = new Vector3(x * tileSize, y * tileSize, 0f);
+                Vector3 origin = transform.position;
+                Vector3 pos = new Vector3(
+                    origin.x + x * tileSize,
+                    origin.y + y * tileSize,
+                    origin.z
+                );
                 GameObject tile = null;
 
                 switch (type)

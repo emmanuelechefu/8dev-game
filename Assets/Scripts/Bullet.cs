@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
         // Hit enemy
         if (other.CompareTag("Enemy"))
         {
-            var health = other.GetComponent<Health>();
+            var health = other.GetComponentInParent<Health>();
             if (health != null)
                 health.TakeDamage(damage);
 
