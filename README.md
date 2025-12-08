@@ -25,12 +25,7 @@ Didn't wanna delete any of Eman's part so I'm just adding mine below
 
 To summarise, this game is made INCREDIBLY stupid, not utilising one of unity's best features. My main pet peeve, the maps.
 They are generated from txt files and assets are loaded over them (by me). Even worse cuz the levelManager code needs
-9 files to load in fully and form a 3x3 grid (rommMaps 0-8). So yeah have fun with adding more, ideally just design ur 
-own (like I did with bossRoom.txt) and go from there. Or, redesign everything and actually make maps in the scene creator
-(long as hell but if u do ur goated).
-
-The boss is incomplete cuz lowkey someone else got that fr, my idea was a bullet hell boss but this is where I ended
-so there's literally nothing there so do what u want. Also no doors lead to there yet, u got that tho.
+9 files to load in fully and form a 3x3 grid (rommMaps 0-8).
 
 Also, that warning in Eman's part should be fixed and the warning shouldn't come up, but if it does just click no.
 If it does then you also won't have the right input manager setup so you will need to go to here:
@@ -43,11 +38,10 @@ Also, add hentai, you know you want to.
 
 Oh yeah, the game is runnable from the main menu, I made it. Feel free to make it *worse*.
 
-## Ola
-
-Okay sooooo, so basically to play the game you enter through one of the doors and then you have to look for a key and then you enter back into the spawn room in which you can craft a gun. If you accidentally
-enter the boss room before doing this icl youre just cooked. Also sometimes key spawns in walls and stuff idk what Jaleel did there. Anyways ummm have fun with the boss battles i created, feel free to add more. Originally
-I was gonna have Diddy as the third boss but i didnt have time so if someone wants to do that feel free, add as much baby oil bullets as possible. Also hit detection is kinda ass, healthbar for enemy doesnt work yet although
-I did start to implement it, audio cuts in at random times sometimes and uhhhhh idk there are some other things i messed up but you guys got !!
+Okay sooooo, so basically to play the game **REDACTED**. If you accidentally enter the boss room before doing
+this icl youre just cooked. Also sometimes key spawns in walls and stuff idk what Jaleel did there. 
+Anyways ummm have fun with the boss battles i created, feel free to add more. **REDACTED** so if someone wants to do that feel free,
+add as much **REDACTED** as possible. Also hit detection is kinda ass, **REDACTED** doesnt work yet althoughI did start to implement it, 
+audio cuts in at random times sometimes and uhhhhh idk there are some other things i messed up but you guys got !!
 
 This was my first time coding in C sharp so everyone hop off my dick btw anyways enjoy.
