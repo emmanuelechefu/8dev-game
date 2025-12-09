@@ -664,7 +664,7 @@ MonoBehaviour:
   InRect: 0
   Pressed: 0
   ItemID: 1
-  ShopMenu: {fileID: 0}
+  ShopMenu: {fileID: 536850086}
 --- !u!1 &633810945
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
   InRect: 0
   Pressed: 0
   ItemID: 2
-  ShopMenu: {fileID: 0}
+  ShopMenu: {fileID: 536850086}
 --- !u!1 &1339550799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,7 +1151,7 @@ MonoBehaviour:
   InRect: 0
   Pressed: 0
   ItemID: 0
-  ShopMenu: {fileID: 0}
+  ShopMenu: {fileID: 536850086}
 --- !u!1 &1735387984
 GameObject:
   m_ObjectHideFlags: 0
