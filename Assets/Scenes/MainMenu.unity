@@ -728,7 +728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   musicSource: {fileID: 1353203994}
-  bossMusic: {fileID: 8300000, guid: ef4e7c5e12b122348ae8136bb0ceb90c, type: 3}
+  bossMusic: {fileID: 8300000, guid: a357921474b00ff44a5b3776359a9ee9, type: 3}
 --- !u!4 &1082243908
 Transform:
   m_ObjectHideFlags: 0

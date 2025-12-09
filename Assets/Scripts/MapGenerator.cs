@@ -10,7 +10,8 @@ public enum TileType
     Wall     = 1,
     Door     = 2,
     Key      = 3,
-    ExitDoor = 4
+    ExitDoor = 4,
+    BossDoor = 5
 }
 
 public class MapGenerator : MonoBehaviour
@@ -23,6 +24,7 @@ public class MapGenerator : MonoBehaviour
     public GameObject doorPrefab;
     public GameObject keyPrefab;
     public GameObject exitDoorPrefab;
+    public GameObject bossDoorPrefab;
 
     private GameObject[,] tiles;
 
@@ -91,6 +93,11 @@ public class MapGenerator : MonoBehaviour
                     case TileType.ExitDoor:
                         if (exitDoorPrefab != null)
                             tile = Instantiate(exitDoorPrefab, pos, Quaternion.identity, transform);
+                        break;
+
+                    case TileType.BossDoor:
+                        if (bossDoorPrefab != null)
+                            tile = Instantiate(bossDoorPrefab, pos, Quaternion.identity, transform);
                         break;
                 }
 

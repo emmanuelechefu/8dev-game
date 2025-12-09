@@ -13,6 +13,10 @@ public class EnemyChase : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
+    public void set_moveSpeed(float new_speed)
+    {
+        moveSpeed = new_speed; 
+    }
     private void Start()
     {
         // Find the player by tag so you don't have to assign it manually

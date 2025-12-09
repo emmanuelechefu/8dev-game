@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
 public class EnemyBullet : MonoBehaviour
 {
-    public int damage = 1;
+    public  int damage = 1;
     public float speed = 6f;
     public float lifeTime = 4f;
 

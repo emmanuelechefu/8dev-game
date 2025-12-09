@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 
@@ -5,32 +6,40 @@ using UnityEngine;
 
 public class Workbench : MonoBehaviour
 {
-    public int gunGoldCost = 3;
+    [SerializeField] private ShopMenu ShopMenu;
+    private KeyCode InteractKey = KeyCode.E;
+    private bool PlayerInRange = false;
+
+    private void Update()
+    {
+        if (PlayerInRange && Input.GetKeyDown(InteractKey))
+        {
+            // opens UI to buy/craft weapon
+            ShopMenu.OpenShop();
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            ShopMenu.CloseShop();
+        }
+    } 
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return;
-
-        // very rough: open a UI or just auto-buy for now
-        TryBuyGun();
+        if (other.CompareTag("Player"))
+        {
+            PlayerInRange = true;
+        }
+ 
     }
 
-    public void TryBuyGun()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        if (GameManager.Instance.hasGun)
+        if (other.CompareTag("Player"))
         {
-            Debug.Log("Already have gun");
-            return;
-        }
-
-        if (GameManager.Instance.SpendGold(gunGoldCost))
-        {
-            GameManager.Instance.hasGun = true;
-            Debug.Log("Gun crafted!");
-        }
-        else
-        {
-            Debug.Log("Not enough gold");
+            PlayerInRange = false; 
+            ShopMenu.CloseShop();
         }
     }
 }

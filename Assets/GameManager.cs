@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int gold;
+    public int gold = 20;
     public int rubies;
     public int diamonds;
     public int keysCollected;

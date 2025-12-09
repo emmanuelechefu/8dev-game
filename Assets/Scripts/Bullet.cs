@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public int damage = 1;
+    public virtual int damage { get; set; } = 1;
     public float lifeTime = 3f;
 
     private void Start()
@@ -12,7 +12,7 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, lifeTime);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    protected virtual void OnTriggerEnter2D(Collider2D other)
     {
         // Hit enemy
         if (other.CompareTag("Enemy"))
