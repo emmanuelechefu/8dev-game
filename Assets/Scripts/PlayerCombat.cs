@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     public int meleeDamage = 1;
-    public float meleeRange = 0.6f;
+    public float meleeRange = 1f;
     public LayerMask enemyLayer;
 
     public Transform gunHolder;

@@ -330,6 +330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4911607811297483335, guid: aa1a2e175b210794da4c1ab326d8d51b, type: 3}
+      propertyPath: meleeRange
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6574171258284269391, guid: aa1a2e175b210794da4c1ab326d8d51b, type: 3}
       propertyPath: slider
       value: 
@@ -930,15 +934,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.70989585
+      value: 1.3333334
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.70989585
+      value: 1.3333334
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.70989585
+      value: 1.3333334
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -970,11 +974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 681.5
+      value: 1280
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 316
+      value: 720
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-/* Another backbone, turns the txt files into maps and then the levle manager/safeArea code
+/* Another backbone, turns the txt files into maps and then the level manager/safeArea code
  turns it into the levels/safeAreas good code if you want to add like more levels or places idk
 */
 

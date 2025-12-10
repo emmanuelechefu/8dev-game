@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BulletHellTest.unity
     guid: 5a892836e5006f741bcc5bdc647f7458
+  - enabled: 1
+    path: Assets/Scenes/OpenWorld.unity
+    guid: 6efa4039ab5d0da409df32d926e09725
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

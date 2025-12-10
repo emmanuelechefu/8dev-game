@@ -85,7 +85,7 @@ public class DialogueController : MonoBehaviour
         // Optionally clear any existing enemy bullets already on screen
         if (clearEnemyBulletsOnStart)
         {
-            var bullets = Object.FindObjectsOfType<EnemyBullet>();
+            var bullets = Object.FindObjectsByType<EnemyBullet>(FindObjectsSortMode.None);
             foreach (var b in bullets)
             {
                 if (b != null)
