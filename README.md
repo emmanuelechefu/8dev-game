@@ -53,4 +53,4 @@ Lmao good luck gng
 
 ## Denis
 
-It took 3 hours to add an animation that was already in the files lol. Furthermore why are we redacting ts </3. Gatekeeping documentation smh.
+It took 3 hours to add an animation that was already in the files. Furthermore why are we gatekeeping documentation </3.
