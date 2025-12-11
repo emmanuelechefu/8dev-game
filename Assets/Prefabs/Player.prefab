@@ -216,14 +216,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerCombat
   meleeDamage: 1
-  meleeRange: 0.6
+  meleeRange: 1.5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   gunHolder: {fileID: 5093184165736588083}
   bulletPrefab: {fileID: 4179576700519042962, guid: a21dd0c701fc2f945a7a69e0bb77288e, type: 3}
   bulletSpeed: 10
   fireRate: 0.25
+  animator: {fileID: 0}
+  attackTrigger: Attack
 --- !u!95 &6448766186910069364
 Animator:
   serializedVersion: 7
