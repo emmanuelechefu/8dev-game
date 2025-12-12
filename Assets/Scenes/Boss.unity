@@ -939,6 +939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6574171258284269391, guid: aa1a2e175b210794da4c1ab326d8d51b, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1555344768}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1219,15 +1223,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3333334
+      value: 0.565625
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3333334
+      value: 0.565625
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3333334
+      value: 0.565625
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1259,11 +1263,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1280
+      value: 543
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 720
+      value: 305.5
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1282,6 +1286,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee008045697e4944181c03e1ea86206a, type: 3}
+--- !u!114 &1555344768 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1544532068389021753, guid: ee008045697e4944181c03e1ea86206a, type: 3}
+  m_PrefabInstance: {fileID: 1555344767}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1783980303 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1645406786723232983, guid: 7c1a86bb9e0752349b76430acc1026d7, type: 3}

@@ -44,6 +44,36 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
+
+    public bool RemoveResource(ResourceType type, int amount)
+        {
+            if (type == ResourceType.Gold)
+            {
+                if (gold >= amount)
+                {
+                    gold -= amount;
+                    return true;
+                }
+                return false;
+            }
+            return false;
+        }
+
+
+        public void HealPlayer(int amount)
+        {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                Health playerHealth = player.GetComponent<Health>();
+                if (playerHealth != null)
+                {
+                    playerHealth.Heal(amount);
+                }
+            }
+        }
+
+
     public void AddKey()
     {
         keysCollected++;
@@ -67,6 +97,7 @@ public class GameManager : MonoBehaviour
     public void LoadBoss() => SceneManager.LoadScene("Boss");
     public void LoadOpenWorld() => SceneManager.LoadScene("OpenWorld");
     public void LoadBulletHellTest() => SceneManager.LoadScene("BulletHellTest");
+
 }
 
 public enum ResourceType { Gold, Ruby, Diamond }

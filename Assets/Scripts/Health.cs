@@ -113,4 +113,21 @@ public class Health : MonoBehaviour
         if (sr != null)
             sr.color = originalColor;
     }
+
+public void Heal(int amount)
+    {
+        current += amount;
+        if (current > maxHealth)
+        {
+            current = maxHealth;
+        }
+
+        if (slider != null) 
+        {
+            slider.value = current;
+        }
+
+
+        Debug.Log(gameObject.name + " healed. Current HP: " + current);
+    }
 }

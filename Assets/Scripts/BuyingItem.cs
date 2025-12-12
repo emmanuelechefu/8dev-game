@@ -1,16 +1,18 @@
-using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class BuyingItem : MonoBehaviour, IPointerDownHandler
 {
-    public bool InRect = false;
-    public bool Pressed = false;
-    public int ItemID;
-    [SerializeField] private ShopMenu ShopMenu;
+    // This creates the Dropdown in the Inspector!
+    public ShopItem itemToBuy; 
+    
+    [SerializeField] private ShopMenu shopMenu;
 
     public void OnPointerDown(PointerEventData data)
     {
-        ShopMenu.BuyingMenu(ItemID);
+        if (shopMenu != null)
+        {
+            shopMenu.BuyingMenu(itemToBuy);
+        }
     }
 }
