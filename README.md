@@ -54,3 +54,7 @@ Lmao good luck gng
 ## Denis
 
 It took 3 hours to add an animation that was already in the files. Furthermore why are we gatekeeping documentation </3.
+
+## Cavio
+
+id rather play this than gta 6 on ola's soul
