@@ -495,11 +495,11 @@ Transform:
   m_GameObject: {fileID: 379798710}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 70.59806, y: 19.16911, z: 0}
+  m_LocalPosition: {x: 10, y: 17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1496020343}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &379798716
 AudioSource:
@@ -769,10 +769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1677369069284768304, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 379798713}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
 --- !u!1 &733236446
@@ -1721,11 +1718,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99d2eaa39223b364cb2d7344817974ab, type: 3}
---- !u!4 &1496020343 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1677369069284768304, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
-  m_PrefabInstance: {fileID: 557856928}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1555344767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2108,3 +2100,4 @@ SceneRoots:
   - {fileID: 1492292835}
   - {fileID: 812172683}
   - {fileID: 1990142280}
+  - {fileID: 379798713}
