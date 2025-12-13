@@ -612,10 +612,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyShooter
   bulletPrefab: {fileID: 4179576700519042962, guid: a21dd0c701fc2f945a7a69e0bb77288e, type: 3}
   fireRate: 2
-  initialDelay: 5
-  bulletSpeed: 2
+  initialDelay: 3
+  bulletSpeed: 3
   aimAtPlayer: 1
-  bulletsPerShot: 3
+  bulletsPerShot: 5
   spreadAngle: 10
   useRandomFireInterval: 0
   minFireInterval: 0.3
@@ -638,7 +638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85c305724388e424b92f37e6123eace0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
-  maxHealth: 10
+  maxHealth: 20
   isPlayer: 0
   invulnerabilityTime: 1.5
   knockbackForce: 5
@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f105c576fcb23814f8e4b94636262c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyChase
-  moveSpeed: 1
+  moveSpeed: 2
 --- !u!114 &379798722
 MonoBehaviour:
   m_ObjectHideFlags: 0
