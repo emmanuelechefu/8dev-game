@@ -202,6 +202,9 @@ MonoBehaviour:
   goldDrop: 3
   rubyDrop: 0
   diamondDrop: 0
+  healthDropChance: 0.25
+  healthRestoreAmount: 1
+  healthPickupPrefab: {fileID: 1844479822289822906, guid: 99d2eaa39223b364cb2d7344817974ab, type: 3}
 --- !u!114 &5906443157899100340
 MonoBehaviour:
   m_ObjectHideFlags: 0

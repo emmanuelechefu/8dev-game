@@ -8,12 +8,16 @@ public class LevelManager : MonoBehaviour
 {
     public TextAsset[] roomMaps;      // 9 maps, 15x15 each
     public MapGenerator mapGenerator; // reference to your Map object
-    public GameObject keyPrefab;      // prefab to spawn
+    public GameObject keyPrefab;      // prefab to spawn  
 
     public GameObject enemyPrefab;
     public int enemiesPerWave = 3;
     public float timeBetweenWaves = 10f;
 
+    // New titties health pickup variables : change 1
+    [Header("Health Spawning")]
+    public GameObject healthPickupPrefab; 
+    public int healthPickupsToSpawn = 3;
     private const int roomSize = 15;
     private int gridSize;
     private char[,] grid;             // combined 45x45 char grid
@@ -21,6 +25,7 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
         GenerateLevel();
+        SpawnHealthPickups(); // call titty spawning function after levels generate : change 2
         StartCoroutine(EnemyWaveLoop());
     }
 
@@ -86,6 +91,46 @@ public class LevelManager : MonoBehaviour
 
         // now spawn the key
         SpawnKeyInTopRightRooms();
+    }
+
+    //CHANGE 3: New Function to Spawn Health on Air Tiles      
+    // Logic: Looks for '0' (Air) on the grid and instantiates   
+    void SpawnHealthPickups()
+    {
+        if (healthPickupPrefab == null)
+        {
+            Debug.LogWarning("LevelManager: Health Pickup Prefab not assigned!");
+            return;
+        }
+
+        int spawned = 0;
+        int safety = 500; // prevent infinite loops if map is full
+
+        // Loop until we spawn 5 items
+        while (spawned < healthPickupsToSpawn && safety-- > 0)
+        {
+            // Pick ANY random spot on the entire map
+            int randomX = Random.Range(0, gridSize);
+            int randomY = Random.Range(0, gridSize);
+
+            // Check our grid array to see what tile is there
+            char c = grid[randomX, randomY];
+
+            // If the tile is '0' (Air), it's a valid spawn spot
+            if (c == '0') 
+            {
+                // Calculate world position
+                Vector3 pos = new Vector3(
+                    randomX * mapGenerator.tileSize,
+                    randomY * mapGenerator.tileSize,
+                    0f
+                );
+
+                // Spawn the prefab
+                Instantiate(healthPickupPrefab, pos, Quaternion.identity);
+                spawned++;
+            }
+        }
     }
 
     void SpawnKeyInTopRightRooms()

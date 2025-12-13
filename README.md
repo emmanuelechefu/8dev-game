@@ -58,3 +58,15 @@ It took 3 hours to add an animation that was already in the files. Furthermore w
 ## Cavio
 
 id rather play this than gta 6 on ola's soul
+
+
+## Abel
+
+Added titties health pickup thingy and it makes a sound - random spawn for boss level and the main level
+
+Made boss kinda work and shoot bullets
+
+changed olpium to cacavio
+
+made a bunch of changes to soome files but cba to explain
+

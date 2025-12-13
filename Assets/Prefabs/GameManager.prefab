@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89eb48d72a265b34cbf02430951324c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  gold: 0
+  gold: 100
   rubies: 0
   diamonds: 0
   keysCollected: 0

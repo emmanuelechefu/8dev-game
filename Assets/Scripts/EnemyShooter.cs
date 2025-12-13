@@ -68,11 +68,14 @@ public class EnemyShooter : MonoBehaviour
             return;
         }
 
-        // Don't fire while any dialogue panel is active
+        // ** FIX 1: Commented out Dialogue check **
+        // ** Reason: Prevents the boss from "freezing" if the intro dialogue logic doesn't close properly. **
+        /*
         if (DialogueController.Instance != null && DialogueController.Instance.IsActive)
         {
             return;
         }
+        */
 
         if (aimAtPlayer && (target == null || !target.gameObject.activeInHierarchy))
         {
@@ -136,7 +139,11 @@ public class EnemyShooter : MonoBehaviour
 
     private void SpawnBullet(Vector2 dir)
     {
-        GameObject instance = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        // ** FIX 2: Added Spawn Offset **
+        // ** Reason: Spawns the bullet 0.8 units away so it doesn't hit the Boss's own collider immediately. **
+        Vector3 spawnPos = transform.position + (Vector3)(dir.normalized * 0.8f);
+
+        GameObject instance = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
 
         EnemyBullet enemyBullet = instance.GetComponent<EnemyBullet>();
         if (enemyBullet != null)

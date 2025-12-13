@@ -311,10 +311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbbd48c10b77834b9472cd0e129a597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InventoryUI
-  slot1Icon: {fileID: 0}
+  slot1Icon: {fileID: 882145332}
   slot1Border: {fileID: 0}
   slot1Count: {fileID: 0}
-  slot2Icon: {fileID: 0}
+  slot2Icon: {fileID: 1695648043}
   slot2Border: {fileID: 0}
   slot2Count: {fileID: 0}
   matchaSprite: {fileID: 1289819246774858112, guid: 3c1228aa783935949b5865faf07dc2d9, type: 3}
@@ -807,6 +807,8 @@ MonoBehaviour:
   enemyPrefab: {fileID: 3825766805218541625, guid: 90f08ebca76b9514eaf80aeb8663b4fa, type: 3}
   enemiesPerWave: 5
   timeBetweenWaves: 10
+  healthPickupPrefab: {fileID: 1844479822289822906, guid: 99d2eaa39223b364cb2d7344817974ab, type: 3}
+  healthPickupsToSpawn: 5
 --- !u!4 &624070130
 Transform:
   m_ObjectHideFlags: 0
@@ -1095,6 +1097,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4570931774547981415, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
+      propertyPath: gold
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570931774547981415, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
+      propertyPath: hasGun
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570931774547981415, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
+      propertyPath: rubies
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4570931774547981415, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
+      propertyPath: diamonds
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7587347464519939428, guid: 9a5c936c5d70b5542a7e373eddab048f, type: 3}
       propertyPath: m_Name
       value: GameManager
@@ -1229,7 +1247,7 @@ PrefabInstance:
     - target: {fileID: 6574171258284269391, guid: aa1a2e175b210794da4c1ab326d8d51b, type: 3}
       propertyPath: slider
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 516165155}
     - target: {fileID: 7238922242159673619, guid: aa1a2e175b210794da4c1ab326d8d51b, type: 3}
       propertyPath: auraHudImage
       value: 
@@ -1467,13 +1485,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.165
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1656,15 +1674,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.565625
+      value: 0.45562497
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.565625
+      value: 0.45562497
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.565625
+      value: 0.45562497
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1696,11 +1714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 543
+      value: 437.4
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 305.5
+      value: 205.3
       objectReference: {fileID: 0}
     - target: {fileID: 6046892503375392064, guid: ee008045697e4944181c03e1ea86206a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2633,6 +2651,10 @@ PrefabInstance:
     - target: {fileID: 645153714110538692, guid: 6cdcbb9e537094f4f853e007f52d7636, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1021977154324255692, guid: 6cdcbb9e537094f4f853e007f52d7636, type: 3}
+      propertyPath: m_Size.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3322893687167613516, guid: 6cdcbb9e537094f4f853e007f52d7636, type: 3}
       propertyPath: m_Name

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4281674896872731180}
   - component: {fileID: 6023306001992145776}
   - component: {fileID: 4121143947671790733}
+  - component: {fileID: 1890653301434659081}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4179576700519042962}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.94162, y: 2.94185, z: 0}
+  m_LocalPosition: {x: -10.940098, y: 2.9499645, z: 0}
   m_LocalScale: {x: 0.10323426, y: 0.103697024, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -119,7 +120,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &6023306001992145776
 CircleCollider2D:
@@ -169,5 +170,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b081a95706885f746bbbf3591a5ff890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  damage: 1
   lifeTime: 3
+--- !u!114 &1890653301434659081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4179576700519042962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b5e47782047ec439a317d8f301938c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
+  damage: 1
+  speed: 6
+  lifeTime: 4
